@@ -16,6 +16,7 @@
 		059F76592966F2BA00C0C010 /* Apple_PieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059F76582966F2BA00C0C010 /* Apple_PieTests.swift */; };
 		059F76632966F2BA00C0C010 /* Apple_PieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059F76622966F2BA00C0C010 /* Apple_PieUITests.swift */; };
 		059F76652966F2BA00C0C010 /* Apple_PieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059F76642966F2BA00C0C010 /* Apple_PieUITestsLaunchTests.swift */; };
+		059F767229688EC800C0C010 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059F767129688EC800C0C010 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		059F765E2966F2BA00C0C010 /* Apple PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059F76622966F2BA00C0C010 /* Apple_PieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieUITests.swift; sourceTree = "<group>"; };
 		059F76642966F2BA00C0C010 /* Apple_PieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		059F767129688EC800C0C010 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		059F76352966F2B800C0C010 = {
 			isa = PBXGroup;
 			children = (
+				059F767129688EC800C0C010 /* Game.swift */,
 				059F76402966F2B900C0C010 /* Apple Pie */,
 				059F76572966F2BA00C0C010 /* Apple PieTests */,
 				059F76612966F2BA00C0C010 /* Apple PieUITests */,
@@ -261,6 +264,7 @@
 				059F76462966F2B900C0C010 /* ViewController.swift in Sources */,
 				059F76422966F2B900C0C010 /* AppDelegate.swift in Sources */,
 				059F76442966F2B900C0C010 /* SceneDelegate.swift in Sources */,
+				059F767229688EC800C0C010 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,8 +441,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7X4X2LP58;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Apple Pie";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,7 +455,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "in.edu.srmist.Apple-Pie";
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,8 +470,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7X4X2LP58;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Apple Pie";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "in.edu.srmist.Apple-Pie";
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
